@@ -13,7 +13,7 @@ header {
         }
     }
 
-    > nav.main-menu {
+    > .main-menu {
         @include zurui-ts-fff(.2);
         font-family: 'Oswald', sans-serif;
         height: 2em;

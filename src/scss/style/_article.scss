@@ -1,4 +1,4 @@
-section.entry {
+.entry {
     p {
         margin-left: 2em;
         @media screen and (max-width:640px) {
@@ -24,7 +24,7 @@ section.entry {
     }
 }
 
-ul.tags {
+.tags {
     @include display-box;
     @include box-orient(inline-axis);
     margin-left: 2em !important;
@@ -50,7 +50,7 @@ ul.tags {
     }
 }
 
-nav.paginate {
+.paginate {
     margin-top: 4em;
     > ul {
         margin: 0;
@@ -80,7 +80,7 @@ nav.paginate {
     }
 }
 
-dl.meta {
+.meta {
   @include clearfix;
     margin-top: 2em;
 

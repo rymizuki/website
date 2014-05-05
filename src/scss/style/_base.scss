@@ -47,7 +47,7 @@ h2 {
     border-style: none none dashed;
 }
 
-h1#site-title {
+#site-title {
     border: none;
     font-family: 'Oswald', sans-serif;
     @include box-shadow(none);
@@ -83,7 +83,7 @@ a {
     }
 }
 
-main#content {
+#content {
     // font-size
     font-size: $main-content-font-size;
     h1 { font-size: 200% }
